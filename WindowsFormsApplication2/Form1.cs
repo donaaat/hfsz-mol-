@@ -16,5 +16,28 @@ namespace WindowsFormsApplication2
         {
             InitializeComponent();
         }
+
+        double x;
+        double y;
+
+        
+        private void C_Click(object sender, EventArgs e)
+        {
+            textBox1.Clear();
+            x = 0;
+            y = 0;
+        }
+
+        private void CE_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Button b = (Button)sender;
+            textBox1.Text = textBox1.Text +b;
+
+        }
     }
 }
