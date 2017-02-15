@@ -33,11 +33,13 @@ namespace WindowsFormsApplication2
 
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void button_Click(object sender, EventArgs e)
         {
             Button b = (Button)sender;
             textBox1.Text = textBox1.Text +b;
 
         }
+
+       
     }
 }
